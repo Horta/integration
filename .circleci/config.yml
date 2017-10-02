@@ -2,9 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.13
       - image: circleci/python:3.6.1
-      - image: circleci/python:latest
+
 
     working_directory: ~/repo
 
@@ -13,21 +12,8 @@ jobs:
 
       - run:
           name: install dependencies
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -q -r requirements.txt
-            bash <(curl -fsSL https://raw.githubusercontent.com/limix/hcephes/master/install)
-            bash <(curl -fsSL https://raw.githubusercontent.com/limix/liknorm/master/install)
+          command: source .circleci/install-deps.sh
 
-      # run tests!
       - run:
           name: run tests
-          command: |
-            . venv/bin/activate
-            pip install limix
-            python -c "import sys; import limix; sys.exit(limix.test())"
-
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          command: source .circleci/run-tests.sh
