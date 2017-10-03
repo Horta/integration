@@ -3,8 +3,8 @@ Integration
 ===========
 
 
-Status
-------
+Release status
+--------------
 
 software     | github-release | pypi | conda-forge | doc | travis | appveyor
 ------------ | ---- | ---- | ------------- | ------- | ------ | -----
@@ -23,3 +23,24 @@ optimix | ![https://github.com/limix/optimix/tag/latest](https://img.shields.io/
 pandas-plink | ![https://github.com/limix/pandas-plink/tag/latest](https://img.shields.io/github/tag/limix/pandas-plink.svg) | ![https://pypi.python.org/pypi/pandas-plink](https://img.shields.io/pypi/v/pandas-plink.svg) | ![https://anaconda.org/conda-forge/pandas-plink](https://anaconda.org/conda-forge/pandas-plink/badges/version.svg) | ![http://pandas-plink.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/pandas-plink/badge/?version=stable) | ![https://travis-ci.org/limix/pandas-plink](https://img.shields.io/travis/limix/pandas-plink/master.svg)
 progressbar | ![https://github.com/limix/progressbar/releases/latest](https://img.shields.io/github/release/limix/progressbar.svg) |  | ![https://anaconda.org/conda-forge/c-progressbar](https://anaconda.org/conda-forge/c-progressbar/badges/version.svg) |  | ![https://travis-ci.org/limix/progressbar](https://img.shields.io/travis/limix/progressbar/master.svg) | ![https://ci.appveyor.com/project/Horta/progressbar/branch/master](https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/master?svg=true)
 scipy-sugar | ![https://github.com/limix/scipy-sugar/tag/latest](https://img.shields.io/github/tag/limix/scipy-sugar.svg) | ![https://pypi.python.org/pypi/scipy-sugar](https://img.shields.io/pypi/v/scipy-sugar.svg) | ![https://anaconda.org/conda-forge/scipy-sugar](https://anaconda.org/conda-forge/scipy-sugar/badges/version.svg) | ![http://scipy-sugar.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/scipy-sugar/badge/?version=stable) | ![https://travis-ci.org/limix/scipy-sugar](https://img.shields.io/travis/limix/scipy-sugar/master.svg)
+
+Development status
+------------------
+
+software     | doc  | travis | appveyor
+------------ | ---- | ------ | --------
+bgen | ![http://bgen.readthedocs.io/en/stable/?badge=develop](https://readthedocs.org/projects/bgen/badge/?version=develop) | ![https://travis-ci.org/limix/bgen](https://img.shields.io/travis/limix/bgen/develop.svg) | ![https://ci.appveyor.com/project/Horta/bgen/branch/develop](https://ci.appveyor.com/api/projects/status/9ygi9jksbgikb87y/branch/develop?svg=true)
+bgen-reader | | |
+glimix-core | ![http://glimix-core.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/glimix-core/badge/?version=develop) | ![https://travis-ci.org/limix/glimix-core](https://img.shields.io/travis/limix/glimix-core/develop.svg)
+hcephes | | ![https://travis-ci.org/limix/hcephes](https://img.shields.io/travis/limix/hcephes/develop.svg) | ![https://ci.appveyor.com/project/Horta/hcephes/branch/develop](https://ci.appveyor.com/api/projects/status/enlpm6cfltjy7h3m/branch/develop?svg=true)
+liknorm | ![http://liknorm.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/liknorm/badge/?version=develop) | ![https://travis-ci.org/limix/liknorm](https://img.shields.io/travis/limix/liknorm/develop.svg) | ![https://ci.appveyor.com/project/Horta/liknorm/branch/develop](https://ci.appveyor.com/api/projects/status/kb4b4rcsm4t60bg5/branch/develop?svg=true)
+liknorm-py | | ![https://travis-ci.org/limix/liknorm-py](https://img.shields.io/travis/limix/liknorm-py/develop.svg)
+limix | ![http://limix.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/limix/badge/?version=develop) | ![https://travis-ci.org/limix/limix](https://img.shields.io/travis/limix/limix/develop.svg)
+limix-core | ![http://limix-core.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/limix-core/badge/?version=develop) | ![https://travis-ci.org/limix/limix-core](https://img.shields.io/travis/limix/limix-core/develop.svg)
+limix-legacy | | ![https://travis-ci.org/limix/limix-legacy](https://img.shields.io/travis/limix/limix-legacy/develop.svg)
+ndarray-listener |  ![http://ndarray-listener.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/ndarray-listener/badge/?version=develop) | ![https://travis-ci.org/limix/ndarray-listener](https://img.shields.io/travis/limix/ndarray-listener/develop.svg)
+numpy-sugar |  ![http://numpy-sugar.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/numpy-sugar/badge/?version=develop) | ![https://travis-ci.org/limix/numpy-sugar](https://img.shields.io/travis/limix/numpy-sugar/develop.svg)
+optimix |  ![http://optimix.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/optimix/badge/?version=develop) | ![https://travis-ci.org/limix/optimix](https://img.shields.io/travis/limix/optimix/develop.svg)
+pandas-plink |  ![http://pandas-plink.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/pandas-plink/badge/?version=develop) | ![https://travis-ci.org/limix/pandas-plink](https://img.shields.io/travis/limix/pandas-plink/develop.svg)
+progressbar | | ![https://travis-ci.org/limix/progressbar](https://img.shields.io/travis/limix/progressbar/develop.svg) | ![https://ci.appveyor.com/project/Horta/progressbar/branch/develop](https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/develop?svg=true)
+scipy-sugar | ![http://scipy-sugar.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/scipy-sugar/badge/?version=develop) | ![https://travis-ci.org/limix/scipy-sugar](https://img.shields.io/travis/limix/scipy-sugar/develop.svg)
